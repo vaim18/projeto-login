@@ -41,7 +41,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /* Telas maiores */
 
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -60,5 +60,13 @@
     section#login > div#formulario {
         float: right;
         width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
